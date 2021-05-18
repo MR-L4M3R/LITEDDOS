@@ -1,27 +1,3 @@
-import os, sys
-print '\x1b[1;32mUdah Punya ID dan Password untuk Login?? Kalo dah punya silahkan masukan Jika Tidak Punya Ketik asal asal aja ntar di arahkan ke wa admin dan tanyakan user dan password yang:) dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint:v'
-print '\x1b[1;32mSilahkan Login '
-import os, sys
-
-def wa():
-    os.system('xdg-open https://api.whatsapp.com/send?phone=+6285647761959&text=Assalamualaikum')
-
-
-def restart():
-    ngulang = sys.executable
-    os.execl(ngulang, ngulang, *sys.argv)
-
-
-user = raw_input('ID: ')
-import getpass
-sandi = raw_input('Password: ')
-if sandi == 'indoxploit' and user == 'Borot':
-    print 'Login Berhasil✓'
-    sys.exit
-else:
-    print 'Login GAGAL×, Silahkan hubungi ADMIN'
-    wa()
-
 
 import time
 import socket
