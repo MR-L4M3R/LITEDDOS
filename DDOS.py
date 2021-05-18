@@ -1,5 +1,5 @@
 import os, sys
-print '\x1b[1;32mMasukan ID: Borot dan Password: indoxploit untuk Login dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint'
+print '\x1b[1;32mUdah Punya ID dan Password untuk Login?? Kalo dah punya silahkan masukan Jika Tidak Punya Ketik asal asal aja ntar di arahkan ke wa admin dan tanyakan user dan password yang:) dan jangan lupa login facebook di OperaMini dulu sebelum login agar tidak CekPoint:v'
 print '\x1b[1;32mSilahkan Login '
 import os, sys
 
@@ -16,10 +16,10 @@ user = raw_input('ID: ')
 import getpass
 sandi = raw_input('Password: ')
 if sandi == 'indoxploit' and user == 'Borot':
-    print 'Anda Telah Login'
+    print 'Login Berhasil✓'
     sys.exit
 else:
-    print 'Login GAGAL, Silahkan hubungi ADMIN'
+    print 'Login GAGAL×, Silahkan hubungi ADMIN'
     wa()
     restart()
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
@@ -63,14 +63,14 @@ def usage():
     print "\033[1;32m#########################################################"
     print "#------------------------[\033[1;91mLITE-DDOS\033[1;32m]---------------------#"
     print "#-------------------------------------------------------#"
-    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
+    print "#   \033[1;91mCommand: " "python2 DDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
     print "#\033[1;91mPembuat:MR.L4M3R  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #          ##                #"
+    print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #     NGERI:V     ##                #"
     print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
     print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
-    print "#               \033[1;91m<--[Indonesia Security Lite]-->         \033[1;32m#"
+    print "#               \033[1;91m<--[Sumber Security Lite]-->         \033[1;32m#"
     print "#########################################################"
     print "                        @@@@@@@@@@"
     print "                       @@@@@@@@@@@@"
