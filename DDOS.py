@@ -9,7 +9,7 @@ def usage():
     print "#   \033[1;91mCommand: " "python2 DDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
     print "#\033[1;91mAuthor:MR.L4M3R  \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #     NGERI:V     ##                #"
+    print "#\033[1;91mTeam   : SUMBER CYBER TEAM        \033[1;32m##     #          ##                #"
     print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
     print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
